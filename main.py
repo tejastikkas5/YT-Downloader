@@ -12,8 +12,6 @@ window = tk.Tk()
 window.geometry("340x560")
 window.resizable(False,False)
 window.title("Video Downloader And MP3 Converter")
-# photo = PhotoImage(file = "C:\\Users\\ASUS\\OneDrive\\Desktop\\ALL_FOLDERS\\Python_Mega_Projects\\youtube_video_downloader\\icon.png")
-# window.iconphoto(False, photo)
 
 font = ctk.CTkFont()
 def start_thread(link,quality_box,frm):
